@@ -4,7 +4,7 @@ services:
     image: 'node:latest'
     volumes:
       - './:/home/node/app'
-    working_dir: ‘/home/node/app’
+    working_dir: '/home/node/app'
     ports:
       - '3000:3000'
     command: 'npm install && npm start'
